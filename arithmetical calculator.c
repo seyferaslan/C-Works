@@ -109,7 +109,7 @@ int toint(char ch){   //function to transform a variable to its value. example: 
 	int tmp=ch-97;
 	return vars[tmp];										
 }
-//I build a while loop. It is splitting the string with (;).
+//I build a while loop. It is splitting the string with (;)
 //There are if conditions in while. The conditions check situations and do their job.
 void infixtopostfix(){   //infix to postfix 
 	int i=0;    //variables for counting and keeping
