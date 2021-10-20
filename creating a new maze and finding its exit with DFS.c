@@ -51,7 +51,7 @@ void print(int n){              //labirenti yazdýrmak için fonksiyon
 
 void dfs(){
 		if(stop==0){
-	if(matris[(top->a)-2][(top->b)]=='B' && matris[(top->a)-1][(top->b)]==' '){    //yukarý hücre boþ mu ve arada hücre var mý diye kontrol ediyoruz
+	if(matris[(top->a)-2][(top->b)]=='B' && matris[(top->a)-1][(top->b)]==' '){  //yukarý hücre boþ mu ve arada hücre var mý diye kontrol
 		matris[(top->a)-2][(top->b)]='I';
 		if(((top->a)-2)==((n*2)-1) && (top->b)==((n*2)-1)){
 			stop=1;
